@@ -70,7 +70,7 @@
 						<div class="image" id="vtrc"><img src="images/sd_vtr.jpg" alt="" /></div>
 						<div class="content">
 							<h3>Work Experience</h3>
-							<p>I worked for Vitrociset S.p.A where I developed state defense software using microservices architectures and Design Event Driven with Apache kafka and Spring Boot. The databases I have worked with are postgreSQL and MongoDB.</p>
+							<p>I worked for Vitrociset S.p.A where I developed state defense software using microservices architectures and event driven architecture with Apache kafka and Spring Boot. The databases I have worked with are postgreSQL and MongoDB.</p>
 						</div>
 					</section>
 					<section class="special">
@@ -102,15 +102,15 @@
 
 				<div id="form1" class="widget">
 					<h3>Invia un Messaggio</h3>
-					<form>
-						<label for="user" class="lblform">Username:</label>
-						<input id="user" type="text" placeholder="your username" required/>
-	
+					<form action="https://formspree.io/f/mzbyykgr" method="POST">
 						<label for="email" class="lblform">Email:</label>
-						<input id="email" type="email" placeholder="your email" required/>
+						<input id="email" name="replyto" type="email" placeholder="your email" required/>
+	
+						<label for="user" class="lblform">Username:</label>
+						<input id="user" name="username" type="text" placeholder="your username" required/>
 	
 						<label for="description" class="lblform">Description:</label>
-						<textarea id="description" placeholder="your description"></textarea>
+						<textarea id="description" name="message" placeholder="your message" required></textarea>
 
 						<input id="send_index" type="submit" value="Send" />
 					</form>
