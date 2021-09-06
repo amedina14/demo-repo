@@ -3618,6 +3618,43 @@ input, select, textarea {
 
 /* Header */
 
+	#header2 {
+		background-color: #4696e5;
+		color: #d1e5f9;
+		padding: 4.5em 0 2.5em 0 ;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
+		background-position: top left, center center;
+		background-attachment: fixed, fixed;
+		background-size: auto, cover;
+		height: 100vh;
+		min-height: 35em;
+
+		/*
+		display: block;
+		background-color: #4696e5;
+		color: #d1e5f9;
+		margin: 0 auto;
+		padding: 4.5em 0 2.5em 0 ;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		*/
+
+	}
+
 	#header {
 		background-color: #4696e5;
 		color: #d1e5f9;
@@ -4162,7 +4199,11 @@ input, select, textarea {
 	margin-bottom: 2%;
 	animation: odj-rotation infinite 3s linear;
 }
-
+#odj-logo2 {
+	width: 15%;
+	margin-bottom: 2%;
+	animation: odj-rotation infinite 3s linear;
+}
 
 @keyframes odj-rotation {
 	0%{
