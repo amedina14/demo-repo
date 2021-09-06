@@ -3272,6 +3272,10 @@ input, select, textarea {
 				color: #e0e0e0;
 			}
 
+			.wrapper.style2 .icon:hover {
+				color: #4696e5;
+			}
+
 			.wrapper.style2 .image {
 				box-shadow: 0 0 0 4px #fbfbfb, 0 0 0 5px #e6e6e6;
 			}
