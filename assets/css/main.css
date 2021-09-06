@@ -178,6 +178,10 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+	.spotlight p{
+		text-align: justify;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: normal;
 		line-height: 1em;
@@ -4172,6 +4176,9 @@ input, select, textarea {
 	width: 20%;
 }
 #pty_cste2 {
+	width: 50%;
+}
+#vtrc {
 	width: 50%;
 }
 
