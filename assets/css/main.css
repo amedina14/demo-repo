@@ -4191,6 +4191,11 @@ input, select, textarea {
 	resize: none;
 } 
 
+#send_index {
+	display: block;
+	margin: 0px auto;
+	margin-top: 1%;
+}
 /*
 #abtme:hover {
 	background-color: #4696e5;
