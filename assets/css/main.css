@@ -4362,7 +4362,7 @@ input, select, textarea {
 
 #logo{
     float: left;
-    width: 200px;
+    width: auto;
     text-align: center;
     margin-top: 8px;
     margin-left: 20px;
