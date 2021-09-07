@@ -4327,4 +4327,35 @@ input, select, textarea {
 }
 */
 
-
+.icons-on-elements {
+	margin-right: 10px;
+}
+.icons-fixed {
+	font-size:2.25rem;
+	margin-right: 18px;
+	color:#e0e0e0;
+}
+.icons-jv:hover {
+	color: #38eaf7;
+}
+.icons-backend:hover {
+	color: #d831bc;
+}
+.icons-db:hover {
+	color: #946622;
+}
+.icons-probs:hover {
+	color: #46e57b;
+}
+.icons-blue:hover {
+	color: #4696e5;
+}
+.icons-js:hover {
+	color: #e2e546;
+}
+.icons-html:hover {
+	color: #e58646;
+}
+.icons-os:hover {
+	color: #e54646;
+}
