@@ -28,3 +28,4 @@ Credits:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
 		normalize css (https://necolas.github.io/normalize.css/8.0.1/normalize.css)
+		Send emails for contact me section (https://formspree.io/)
