@@ -3654,6 +3654,39 @@ input, select, textarea {
 		*/
 
 	}
+	#header2 h1 a{
+		display: block;
+		color: #ffffff;
+		letter-spacing: -0.0125em;
+		text-decoration: none;
+		border-bottom: none;
+		text-align: right;
+		font-weight: bold;
+	}
+	#header2 h1 {
+		color: #ffffff;
+	}
+	#header2 .button {
+		color: #ffffff;
+	}
+
+	#header2 p {
+		font-size: 1.5em;
+		line-height: 1.35em;
+	}
+	#header2 .content {
+		-moz-transition: opacity 0.5s ease, -moz-transform 1s ease;
+		-webkit-transition: opacity 0.5s ease, -webkit-transform 1s ease;
+		-ms-transition: opacity 0.5s ease, -ms-transform 1s ease;
+		transition: opacity 0.5s ease, transform 1s ease;
+		-moz-transform: translateX(0);
+		-webkit-transform: translateX(0);
+		-ms-transform: translateX(0);
+		transform: translateX(0);
+		opacity: 1;
+		text-align: right;
+		margin: -3.5em 4em 0 0;
+	}
 
 	#header {
 		background-color: #4696e5;
@@ -3689,6 +3722,16 @@ input, select, textarea {
 			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
 		}
 
+		#header2 input[type="submit"],
+		#header2 input[type="reset"],
+		#header2 input[type="button"],
+		#header2 button,
+		#header2 .button {
+			background-color: transparent;
+			color: #ffffff !important;
+			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+		}
+
 			#header input[type="submit"]:hover,
 			#header input[type="reset"]:hover,
 			#header input[type="button"]:hover,
@@ -3710,6 +3753,16 @@ input, select, textarea {
 			#header input[type="button"].primary,
 			#header button.primary,
 			#header .button.primary {
+				box-shadow: none;
+				background-color: #ffffff;
+				color: #4696e5 !important;
+			}
+
+			#header2 input[type="submit"].primary,
+			#header2 input[type="reset"].primary,
+			#header2 input[type="button"].primary,
+			#header2 button.primary,
+			#header2 .button.primary {
 				box-shadow: none;
 				background-color: #ffffff;
 				color: #4696e5 !important;
@@ -3874,6 +3927,11 @@ input, select, textarea {
 			font-weight: bold;
 			margin-bottom: 0.5em;
 		}
+		#header2 h1 {
+			font-size: 3.25em;
+			font-weight: bold;
+			margin-bottom: 0.5em;
+		}
 
 		#header p {
 			font-size: 1.5em;
@@ -3901,8 +3959,17 @@ input, select, textarea {
 			#header .content > :last-child {
 				margin-bottom: 0;
 			}
+			#header2 .content > :last-child {
+				margin-bottom: 0;
+			}
 
 			#header .content .actions {
+				-moz-justify-content: -moz-flex-end;
+				-webkit-justify-content: -webkit-flex-end;
+				-ms-justify-content: -ms-flex-end;
+				justify-content: flex-end;
+			}
+			#header2 .content .actions {
 				-moz-justify-content: -moz-flex-end;
 				-webkit-justify-content: -webkit-flex-end;
 				-ms-justify-content: -ms-flex-end;
@@ -4199,13 +4266,26 @@ input, select, textarea {
 	margin-bottom: 2%;
 	animation: odj-rotation infinite 3s linear;
 }
+
+@keyframes odj-rotation {
+	0%{
+		transform: scale(0,1);
+	}
+	50%{
+		transform: scale(1,1);
+	}
+	100%{
+		transform: scale(0,1);
+	}
+}
+
 #odj-logo2 {
 	width: 15%;
 	margin-bottom: 2%;
-	animation: odj-rotation infinite 3s linear;
+	animation: odj-rotation2 infinite 3s linear;
 }
 
-@keyframes odj-rotation {
+@keyframes odj-rotation2 {
 	0%{
 		transform: scale(0,1);
 	}
