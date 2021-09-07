@@ -4413,8 +4413,13 @@ input, select, textarea {
 }
 
 .form-at-sign {
-	margin-top: 2%;
-	margin-bottom: 2%;
+	margin: 2% auto;
+	width: 80%;
 	border: 1px solid #3089e2;
 	border-radius: 20px;
+}
+
+.atsign {
+	margin: 0px auto;
+	width: 40%;
 }
