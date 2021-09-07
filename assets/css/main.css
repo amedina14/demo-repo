@@ -4359,3 +4359,34 @@ input, select, textarea {
 .icons-os:hover {
 	color: #e54646;
 }
+
+.wrap {
+	width: 100%;
+	height: 70px;
+    background-color: black;
+    color: white;
+}
+#menu{
+    float: right;
+    height: 70px;
+    background: transparent;
+}
+#menu ul li {
+	font-size: 24px;
+	display: inline-block;
+	list-style: none;
+    margin: 0px 20px 0px 20px;
+    letter-spacing: 1px;
+    line-height: 70px;
+}
+
+#menu ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: all 200ms;
+}
+#menu ul li a:hover{
+    color: #4696e5;
+    transform: scale(1.2, 1.2);
+}
